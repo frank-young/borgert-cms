@@ -30,8 +30,8 @@ class PostsController extends Controller
     public function show($id)
     {
         $post = Posts::where(['id' => $id, 'status' => 1]);
-        $res = returnDetail($post);
-        return response()->json($res);
+        // $res = returnDetail($post);
+        return response()->json($post);
     }
 
 }
