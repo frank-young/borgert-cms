@@ -1,0 +1,8 @@
+/vendor
+/node_modules
+/storage
+/public/assets/components
+/public/uploads
+.env
+.idea
+composer.lock
